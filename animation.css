@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+}
+.contaner{
+    height: 500px;
+    width: 500px;
+    background-color: #000;
+}
+.mod1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.mod1:hover{
+   background-color: #fff,;
+   height: 250px;
+   width: 250px;
+   border-radius: 50%;
+   transition-property: width, background-color, ;
+   transition-duration: 4s;
+   transition-delay: 1s;
+   transform: scale(2) rotate(360deg);
+}
